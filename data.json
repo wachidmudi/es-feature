@@ -1,0 +1,43 @@
+[
+  {
+    "name": "agung",
+    "city": "sampit",
+    "hobbies": [
+      "movies",
+      "music"
+    ]
+  },
+  {
+    "name": "nasrul",
+    "city": "tangerang",
+    "hobbies": [
+      "game",
+      "music",
+      "trip"
+    ]
+  },
+  {
+    "name": "aji",
+    "city": "malang",
+    "hobbies": [
+      "music",
+      "food"
+    ]
+  },
+  {
+    "name": "suryo",
+    "city": "yogyakarta",
+    "hobbies": [
+      "game",
+      "teach"
+    ]
+  },
+  {
+    "name": "adly",
+    "city": "bogor",
+    "hobbies": [
+      "food",
+      "trip"
+    ]
+  }
+]
