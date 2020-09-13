@@ -6,14 +6,14 @@ for (let i = 0; i < names.length; i++) {
     output.push(names[i])
 }
 
-// console.log(output);
+// console.log(output)
 
 function mapBikinSendiri(array) {
 
   let output = []
 
   for (let i = 0; i < array.length; i++) {
-      output.push(array[i])
+      output.push(`Namaku adalah ${array[i]}`)
   }
 
   return output
@@ -25,11 +25,27 @@ const dataMap = mapBikinSendiri(names)
 
 
 
+
+
+
+
+
+
 // map with function
 const data1 = names.map(function(name) {
-  return name
+  return `Namaku adalah ${name}`
 })
 // console.log(data1)
+
+
+
+
+
+
+
+
+
+
 
 // map with arrow
 const data2 = names.map(name => `Namaku adalah ${name}`)

@@ -59,12 +59,12 @@ const items = [
 // const itemsReduce = items.reduce((accumulator, current) => {
 // 	current.tag = 'quality'
 
-//   	accumulator.push(current)
+// 	accumulator.push(current)
 
-//   	return accumulator
+// 	return accumulator
 // }, [])
 
-// console.log(itemsReduce);
+// console.log(itemsReduce)
 
 
 
@@ -74,5 +74,5 @@ const items = [
 //   	return accumulator
 // }, {})
 
-// console.log(itemsReduce);
+// console.log(itemsReduce)
 
