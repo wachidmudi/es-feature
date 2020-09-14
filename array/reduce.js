@@ -1,11 +1,12 @@
 const numbers = [1,2,3,4,5]
 
-const total = numbers.reduce((accumulator, current) => {
-    return accumulator * current
+
+const total1 = numbers.reduce((accumulator, current) => {
+	// console.log(accumulator)
+	return accumulator + current
 }, 0)
 
-console.log('total', total)
-
+// console.log('total', total)
 
 
 
@@ -40,6 +41,24 @@ const items = [
 		price: 200000
 	}
 ]
+
+
+const total = items.reduce((accumulator, current) => {
+
+	accumulator[current.name] = current.price
+
+	return accumulator
+}, {})
+
+console.log(total)
+
+
+
+
+
+
+
+
 
 
 // const itemsReduce = items.reduce((accumulator, current) => {

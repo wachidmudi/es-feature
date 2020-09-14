@@ -6,7 +6,30 @@ for (let i = 0; i < names.length; i++) {
     output.push(names[i])
 }
 
-// console.log(output)
+const newData = names.map((name, index) => {
+  return `${index} ${name}`
+})
+
+console.log(newData)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function mapBikinSendiri(array) {
 
@@ -18,10 +41,35 @@ function mapBikinSendiri(array) {
 
   return output
 }
+// console.log(mapBikinSendiri(names))
+
+
+
+
+
+
+
+
 
 
 const dataMap = mapBikinSendiri(names)
 // console.log(dataMap)
+
+
+
+
+
+// fs.readFile('./data.json', 'utf8', (err, data) => {
+//   data = JSON.parse(data)
+
+//   return data.map(teacher => new Teacher(teacher.id, teacher.name))
+// })
+
+
+
+
+
+
 
 
 
@@ -32,7 +80,7 @@ const dataMap = mapBikinSendiri(names)
 
 
 // map with function
-const data1 = names.map(function(name) {
+const data = names.map(function(name) {
   return `Namaku adalah ${name}`
 })
 // console.log(data1)
@@ -49,7 +97,7 @@ const data1 = names.map(function(name) {
 
 // map with arrow
 const data2 = names.map(name => `Namaku adalah ${name}`)
-console.log(data2)
+// console.log(data2)
 
 
 // Example with class static method
